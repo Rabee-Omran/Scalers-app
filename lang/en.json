@@ -1,0 +1,21 @@
+{
+    "appName": "Scalers",
+    "someThingWentWrong": "Something went wrong",
+    "noInternetConnection": "No internet connection",
+    "retry": "Retry",
+    "noDataFound": "No data found",
+    "scalers": "Scalers",
+    "pageNotFound": "Page not found",
+    "back": "Back",
+    "comingSoon": "Coming soon",
+    "home": "Home",
+    "settings": "Settings",
+    "jobs": "Jobs",
+    "resume": "Resume",
+    "language": "Language",
+    "arabic": "Arabic",
+    "english": "English",
+    "jobDescription": "Job description",
+    "keyResponsibilities": "Key responsibilities",
+    "apply": "Apply"
+  }

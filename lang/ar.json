@@ -1,0 +1,21 @@
+{
+    "appName": "سكيلر",
+    "someThingWentWrong": "حدث خطأ ما",
+    "noInternetConnection": "لا يوجد اتصال بالإنترنت",
+    "retry": "إعادة المحاولة",
+    "noDataFound": "لا توجد بيانات",
+    "scalers": "سكيلرز",
+    "pageNotFound": "الصفحة غير موجودة",
+    "back": "رجوع",
+    "comingSoon": "قريباً",
+    "home": "الرئيسية",
+    "settings": "الإعدادات",
+    "jobs": "وظائف",
+    "resume": "السيرة الذاتية",
+    "language": "اللغة",
+    "arabic": "العربية",
+    "english": "الإنجليزية",
+    "jobDescription": "وصف الوظيفة",
+    "keyResponsibilities": "المسؤوليات الرئيسية",
+    "apply": "تقديم"
+  }

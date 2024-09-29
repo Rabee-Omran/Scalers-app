@@ -1,0 +1,118 @@
+name: scalers
+description: "Scalers App"
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Animation library with pre-built animations
+  animate_do: ^3.3.4
+
+  # Display images from the network with caching support
+  cached_network_image: ^3.3.1
+
+  # Functional programming utilities like Option and Either
+  dartz: ^0.10.1
+
+  # Powerful HTTP client for making network requests
+  dio: ^5.4.1
+
+  # Simplifies object equality comparisons
+  equatable: ^2.0.5
+
+  # BLoC state management library for reactive applications
+  flutter_bloc: ^8.1.3
+
+  # Flutter localization support for multi-language applications
+  flutter_localizations:
+    sdk: flutter
+
+  # Utility to help create responsive layouts across different screen sizes
+  flutter_screenutil: ^5.9.0
+
+  # Library to render SVG images in Flutter
+  flutter_svg: ^2.0.9
+
+  # Provides toast notifications (temporary message pop-ups)
+  fluttertoast: ^8.2.4
+
+  # Helps manage space and gaps between widgets
+  gap: ^3.0.1
+
+  # Simple dependency injection library
+  get_it: ^7.6.7
+
+  # Declarative navigation and routing for Flutter apps
+  go_router: 12.1.3
+
+  # Check internet connectivity status
+  internet_connection_checker: ^1.0.0+1
+
+  # Utilities for working with dates, times, and localization
+  intl: ^0.19.0
+
+  # Logger for network requests made using Dio
+  pretty_dio_logger: ^1.3.1
+
+  # Persistent local storage for simple key-value pairs
+  shared_preferences: ^2.2.2
+
+  # Shimmer effect to indicate content loading
+  shimmer: ^3.0.0
+
+  # Time ago plugin to display relative timestamps like "2 hours ago"
+  timeago: ^3.6.1
+
+  # Icon set for iOS-style Cupertino design widgets
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  # Generates launcher icons for Android and iOS
+  flutter_launcher_icons: "^0.13.1"
+
+  # Flutter's built-in testing framework
+  flutter_test:
+    sdk: flutter
+
+  # Flutter linting rules for code quality and style checks
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  # Asset directories for localization and resources
+  assets:
+    - lang/
+    - assets/svg/
+    - assets/fonts/
+
+  # Custom fonts for the app
+  fonts:
+    - family: IBMPlexSansArabic
+      fonts:
+        - asset: assets/fonts/IBMPlexSansArabic-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/IBMPlexSansArabic-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/IBMPlexSansArabic-Light.ttf
+          weight: 300
+        - asset: assets/fonts/IBMPlexSansArabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/IBMPlexSansArabic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/IBMPlexSansArabic-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/IBMPlexSansArabic-Bold.ttf
+          weight: 700
